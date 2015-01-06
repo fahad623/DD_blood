@@ -1,0 +1,9 @@
+data/
+classifier/
+*.csv
+*.csv.gz
+*.suo
+*.pyc
+*.zip
+*.vw
+*.cache
