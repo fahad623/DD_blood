@@ -21,8 +21,8 @@ def cv_optimize(X_train, Y_train, clf):
     return gs.best_estimator_, gs.best_params_, gs.best_score_
 
 def fit_clf(X_train, Y_train):
-    clf = SVC()
-    clf, bp, bs = cv_optimize(X_train, Y_train, clf)    
+    clf = SVC(C = 1.0, gamma = 1.0)
+    #clf, bp, bs = cv_optimize(X_train, Y_train, clf)    
     clf.fit(X_train, Y_train)
     return clf
 

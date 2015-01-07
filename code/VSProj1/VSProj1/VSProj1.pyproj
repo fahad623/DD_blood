@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9a861b04-54fd-4e36-84a5-13fb85ded419</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RandomForest.py</StartupFile>
+    <StartupFile>LinearSVC.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="base_clf.py" />
+    <Compile Include="cross_val.py" />
     <Compile Include="GBT.py" />
     <Compile Include="kNN.py" />
     <Compile Include="LinearSVC.py" />
+    <Compile Include="output_csv.py" />
+    <Compile Include="pre_process.py" />
     <Compile Include="RandomForest.py" />
     <Compile Include="SVC.py" />
   </ItemGroup>
