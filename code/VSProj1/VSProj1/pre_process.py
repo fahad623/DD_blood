@@ -4,12 +4,15 @@ from sklearn import preprocessing
 
 trainFile = "../../../data/Warm_Up_Predict_Blood_Donations_-_Traning_Data.csv"
 testFile = "../../../data/Warm_Up_Predict_Blood_Donations_-_Test_Data.csv"
-clfFolder = "../../../classifier/"
+clfFolderTop = "../../../classifier/"
+clfFolderBase = "../../../classifier/Base/"
+clfFolderMeta = "../../../classifier/Meta/"
 base_csv_name = "base_output.csv"
 test_csv_name = "test_output.csv"
 
-base_clf_names = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LinearSVC', 'RandomForestClassifier', 'SVC']
-
+#base_clf_names = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LinearSVC', 'RandomForestClassifier', 'SVC']
+base_clf_names = ['AdaBoostClassifier', 'GradientBoostingClassifier', 'KNeighborsClassifier', 'LinearSVC']
+meta_clf_name = 'LogisticRegression'
 
 class PreProcessBase(object):   
 
@@ -53,8 +56,8 @@ class PreProcessMeta(object):
         df_list_train = []
         df_list_test = []
         for i, item in enumerate(base_clf_names):
-            path_train = clfFolder + item + '/' + base_csv_name
-            path_test = clfFolder + item + '/' + test_csv_name
+            path_train = clfFolderBase + item + '/' + base_csv_name
+            path_test = clfFolderBase + item + '/' + test_csv_name
 
             train1 = pd.read_csv(path_train)
             test1 = pd.read_csv(path_test)
@@ -70,13 +73,15 @@ class PreProcessMeta(object):
         df_train = df_list_train[0].join(df_list_train[1:])
         df_test = df_list_test[0].join(df_list_test[1:])
 
-        self.X_train = df_train.ix[:, 1:len(base_clf_names)].values
-        self.X_test = df_test.ix[:, len(base_clf_names)].values
+        self.X_train = df_train.ix[:, 1:len(base_clf_names)+1].values
+        self.X_test = df_test.ix[:, 1:len(base_clf_names)+1].values
 
-        df_train.to_csv(clfFolder + "meta_train.csv", index = False)
-        df_test.to_csv(clfFolder + "meta_test.csv", index = False)
+        print self.X_test.shape
+
+        df_train.to_csv(clfFolderTop + "meta_train.csv", index = False)
+        df_test.to_csv(clfFolderTop + "meta_test.csv", index = False)
 
         del df_list_train, df_list_test, df_train, df_test
 
     def get_train_test(self):
-        return self.X_train, self.X_test, self.Y_train
+        return self.X_train, self.X_test

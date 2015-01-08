@@ -3,7 +3,7 @@ from sklearn.cross_validation import KFold
 import output_csv
 import pre_process
 
-base_clf_module_names = ['_clf_'+ name for name in pre_process.base_clf_names]
+base_clf_module_names = ['_base_'+ name for name in pre_process.base_clf_names]
 base_clf_modules = map(__import__, base_clf_module_names)
 
 from sklearn.neighbors import KNeighborsClassifier
@@ -58,4 +58,4 @@ if __name__ == '__main__':
 
     pp = pre_process.PreProcessBase()
     clf_list = make_base_classifiers()
-    run_base_classifiers(clf_list, pp, n_folds = 2, output_test = True)
+    run_base_classifiers(clf_list, pp, n_folds = 200, output_test = True)

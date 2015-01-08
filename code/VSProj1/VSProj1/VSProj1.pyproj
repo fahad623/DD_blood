@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9a861b04-54fd-4e36-84a5-13fb85ded419</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>meta_clf.py</StartupFile>
+    <StartupFile>_base_GradientBoostingClassifier.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,16 +24,20 @@
   <ItemGroup>
     <Compile Include="base_clf.py" />
     <Compile Include="cross_val.py" />
-    <Compile Include="_clf_GradientBoostingClassifier.py" />
-    <Compile Include="_clf_KNeighborsClassifier.py" />
-    <Compile Include="_clf_LinearSVC.py" />
+    <Compile Include="Test.py" />
+    <Compile Include="_base_AdaBoostClassifier.py" />
+    <Compile Include="_base_GradientBoostingClassifier.py" />
+    <Compile Include="_base_KNeighborsClassifier.py" />
+    <Compile Include="_base_LinearSVC.py" />
     <Compile Include="meta_clf.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="output_csv.py" />
     <Compile Include="pre_process.py" />
-    <Compile Include="_clf_RandomForestClassifier.py" />
-    <Compile Include="_clf_SVC.py" />
+    <Compile Include="_meta_GradientBoostingClassifier.py" />
+    <Compile Include="_meta_LogisticRegression.py" />
+    <Compile Include="_base_RandomForestClassifier.py" />
+    <Compile Include="_base_SVC.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
