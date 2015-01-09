@@ -1,12 +1,12 @@
 import sys
-sys.path.append('../../../../../xgboost/wrapper/')
+sys.path.append('../../../../xgboost/wrapper/')
 import xgboost as xgb
 import numpy as np
 import cross_val
 import pre_process
 import output_csv
 
-predict_method = 'proba'
+predict_method = ''
 
 class XGBoostClassifier(object):
     param = {}
@@ -22,14 +22,14 @@ class XGBoostClassifier(object):
     def __init__(self):
         pass        
 
-    def fit(X_train, Y_train):
-        xg_train = xgb.DMatrix(X_train, label=Y_train)        
-        self.bst = xgb.train( param, xg_train, num_round)    
-        
+    def fit(self, X_train, Y_train):
+        xg_train = xgb.DMatrix(X_train, label=Y_train)   
+        watchlist = [ (xg_train,'train'), (xg_test, 'test') ]     
+        self.bst = xgb.train( XGBoostClassifier.param, xg_train, XGBoostClassifier.num_round)   
 
-    def predict_proba(X_test):
+    def predict(self, X_test):
         xg_test = xgb.DMatrix(X_test)
-        ypred = self.bst.predict( xg_test )
+        return self.bst.predict( xg_test )
 
 
 def make_best_classifier():
@@ -37,9 +37,9 @@ def make_best_classifier():
 
 def train_base_clf(pp):    
     clf = make_best_classifier()[0]
-    
-    output_csv.write_test_csv(clf.__class__.__name__, pp.df_output_test, clf.predict_proba(pp.X_test)[:,1])
-    output_csv.write_gs_params_base(clf.__class__.__name__, bp, bs, clf.score(pp.X_train, pp.Y_train))
+    clf.fit(pp.X_train, pp.Y_train)
+    output_csv.write_test_csv(clf.__class__.__name__, pp.df_output_test, clf.predict(pp.X_test))
+    output_csv.write_gs_params_base(clf.__class__.__name__)
     return clf, predict_method
 
 
