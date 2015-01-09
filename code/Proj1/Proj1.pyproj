@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>9a861b04-54fd-4e36-84a5-13fb85ded419</ProjectGuid>
+    <ProjectGuid>ee03e7da-00d2-40b9-8db2-50d7c5a1d503</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_base_GradientBoostingClassifier.py</StartupFile>
+    <StartupFile>_base_LinearSVC.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>VSProj1</Name>
-    <RootNamespace>VSProj1</RootNamespace>
+    <Name>Proj1</Name>
+    <RootNamespace>Proj1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,20 +24,19 @@
   <ItemGroup>
     <Compile Include="base_clf.py" />
     <Compile Include="cross_val.py" />
+    <Compile Include="meta_clf.py" />
+    <Compile Include="output_csv.py" />
+    <Compile Include="pre_process.py" />
     <Compile Include="Test.py" />
     <Compile Include="_base_AdaBoostClassifier.py" />
     <Compile Include="_base_GradientBoostingClassifier.py" />
     <Compile Include="_base_KNeighborsClassifier.py" />
     <Compile Include="_base_LinearSVC.py" />
-    <Compile Include="meta_clf.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="output_csv.py" />
-    <Compile Include="pre_process.py" />
-    <Compile Include="_meta_GradientBoostingClassifier.py" />
-    <Compile Include="_meta_LogisticRegression.py" />
     <Compile Include="_base_RandomForestClassifier.py" />
     <Compile Include="_base_SVC.py" />
+    <Compile Include="_base_XGBoostClassifier.py" />
+    <Compile Include="_meta_GradientBoostingClassifier.py" />
+    <Compile Include="_meta_LogisticRegression.py" />
     <Compile Include="_meta_RandomForestClassifier.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />

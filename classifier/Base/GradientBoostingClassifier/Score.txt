@@ -1,1 +1,7 @@
-gs.best_params_ = {}, gs.best_score_ = 0.791666666667
+
+
+gs.best_params_ = {'n_estimators': 500, 'learning_rate': 0.01, 'max_depth': 2}, gs.best_score_ = 0.791666666667
+Total score = 0.822916666667
+
+gs.best_params_ = {'n_estimators': 350, 'learning_rate': 0.01, 'max_depth': 2}, gs.best_score_ = -0.499075554716
+Total score = 0.809027777778

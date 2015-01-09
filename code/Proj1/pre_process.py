@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np
 from sklearn import preprocessing
 
-trainFile = "../../../data/Warm_Up_Predict_Blood_Donations_-_Traning_Data.csv"
-testFile = "../../../data/Warm_Up_Predict_Blood_Donations_-_Test_Data.csv"
-clfFolderTop = "../../../classifier/"
-clfFolderBase = "../../../classifier/Base/"
-clfFolderMeta = "../../../classifier/Meta/"
+trainFile = "../../data/Warm_Up_Predict_Blood_Donations_-_Traning_Data.csv"
+testFile = "../../data/Warm_Up_Predict_Blood_Donations_-_Test_Data.csv"
+clfFolderTop = "../../classifier/"
+clfFolderBase = "../../classifier/Base/"
+clfFolderMeta = "../../classifier/Meta/"
 base_csv_name = "base_output.csv"
 test_csv_name = "test_output.csv"
 

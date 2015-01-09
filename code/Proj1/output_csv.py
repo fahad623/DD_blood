@@ -28,15 +28,16 @@ def write_csv(clf_name, clfFolder, df_output, file_name, del_folder = False):
 
     df_output.to_csv(clfFolder +"\\"+ file_name, index = False) 
 
-def write_gs_params_base(clf_name, bp, bs):
-    write_gs_params(clf_name, pre_process.clfFolderBase, bp, bs)
+def write_gs_params_base(clf_name, bp, bs, total_score):
+    write_gs_params(clf_name, pre_process.clfFolderBase, bp, bs, total_score)
 
-def write_gs_params_meta(clf_name, bp, bs):
-    write_gs_params(clf_name, pre_process.clfFolderMeta, bp, bs)
+def write_gs_params_meta(clf_name, bp, bs, total_score):
+    write_gs_params(clf_name, pre_process.clfFolderMeta, bp, bs, total_score)
 
-def write_gs_params(clf_name, clfFolder, bp, bs):
+def write_gs_params(clf_name, clfFolder, bp, bs, total_score):
     clfFolder = clfFolder + clf_name
-    score_file = open(clfFolder + "\\Score.txt", "w")
-    score_file.write("gs.best_params_ = {0}, gs.best_score_ = {1}".format(bp, bs))
+    score_file = open(clfFolder + "\\Score.txt", "a")
+    score_file.write("\n\ngs.best_params_ = {0}, gs.best_score_ = {1}".format(bp, bs))
+    score_file.write("\nTotal score = {0}".format(total_score))
     score_file.close()
     

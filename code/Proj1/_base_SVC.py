@@ -23,5 +23,6 @@ def train_base_clf(pp):
 
 if __name__ == '__main__':
     pp_base = pre_process.PreProcessBase()
-    train_base_clf(pp_base)
+    clf = train_base_clf(pp_base)[0]
+    print "Total Score - {0}".format(clf.score(pp_base.X_train, pp_base.Y_train))
 
