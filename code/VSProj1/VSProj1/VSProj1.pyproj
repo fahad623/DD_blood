@@ -38,6 +38,7 @@
     <Compile Include="_meta_LogisticRegression.py" />
     <Compile Include="_base_RandomForestClassifier.py" />
     <Compile Include="_base_SVC.py" />
+    <Compile Include="_meta_RandomForestClassifier.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
