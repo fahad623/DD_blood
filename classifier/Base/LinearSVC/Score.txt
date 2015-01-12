@@ -50,3 +50,9 @@ Accuracy total score = 0.774305555556
 
 gs.best_params_ = {'C': 0.01}, gs.best_score_ = 0.770833333333
 Accuracy total score = 0.770833333333
+
+gs.best_params_ = {'C': 0.0050000000000000001}, gs.best_score_ = 0.770833333333
+Accuracy total score = 0.770833333333
+
+gs.best_params_ = {'C': 0.0030000000000000001}, gs.best_score_ = 0.770833333333
+Accuracy total score = 0.770833333333

@@ -63,3 +63,7 @@ Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'Logis
 gs.best_params_ = {'n_neighbors': 31}, gs.best_score_ = -0.427417498198
 Total score = 0.437258091937
 Base classifiers = ['KNeighborsClassifier', 'GradientBoostingClassifier', 'LinearSVC']
+
+gs.best_params_ = {'n_neighbors': 32}, gs.best_score_ = -0.42111042951
+Total score = 0.426404515821
+Base classifiers = ['KNeighborsClassifier', 'GradientBoostingClassifier', 'LinearSVC']

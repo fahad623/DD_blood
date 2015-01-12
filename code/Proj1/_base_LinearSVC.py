@@ -7,12 +7,12 @@ import output_csv
 predict_method = 'decision'
 
 def make_best_classifier():
-    return LinearSVC(C = 0.01) , predict_method
+    return LinearSVC(C = 0.003) , predict_method
     #return LinearSVC(C = 1e-5) , predict_method
 
 def train_base_clf(pp):
     clf = make_best_classifier()[0]
-    C_range = 10.0 ** np.arange(-7, 1)
+    C_range = np.arange(0.001, 0.010, 0.001)
     param_grid = dict(C=C_range)
     clf, bp, bs = cross_val.fit_clf(clf, pp.X_train, pp.Y_train, param_grid )
     #clf, bp, bs = cross_val.fit_clf(clf, pp.X_train, pp.Y_train, param_grid)

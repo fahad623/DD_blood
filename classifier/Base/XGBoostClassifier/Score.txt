@@ -16,3 +16,15 @@ Accuracy total score = 0.824652777778
 gs.best_params_ = {'num_round': 35, 'subsample': 0.69999999999999996, 'eta': 0.10000000000000001, 'max_depth': 3}, gs.best_score_ = -0.443723555557
 Optimization total score = 0.425362188013
 Accuracy total score = 0.826388888889
+
+gs.best_params_ = {'num_round': 35, 'subsample': 0.69999999999999996, 'eta': 0.20000000000000001, 'max_depth': 2}, gs.best_score_ = -0.443327607606
+Optimization total score = 0.433060664709
+Accuracy total score = 0.819444444444
+
+gs.best_params_ = {'num_round': 32, 'subsample': 0.73000000000000009, 'eta': 0.17000000000000001, 'max_depth': 2}, gs.best_score_ = -0.440844063136
+Optimization total score = 0.440177668378
+Accuracy total score = 0.822916666667
+
+gs.best_params_ = {'num_round': 32, 'subsample': 0.75, 'eta': 0.16, 'max_depth': 2}, gs.best_score_ = -0.439179876237
+Optimization total score = 0.443503114427
+Accuracy total score = 0.821180555556

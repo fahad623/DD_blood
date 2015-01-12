@@ -91,14 +91,14 @@ class XGBoostClassifier(BaseEstimator, ClassifierMixin):
 
 
 def make_best_classifier():
-    return XGBoostClassifier(), predict_method
+    return XGBoostClassifier(num_round = 32, subsample = 0.75, eta = 0.16, max_depth = 2), predict_method
 
 def train_base_clf(pp):    
     clf = make_best_classifier()[0]
-    eta_range = np.arange(0.05, 0.25, 0.01)
-    max_depth_range = np.arange(2, 5, 1)
-    num_round_range = np.arange(15, 40, 2)
-    subsample_range = np.arange(0.5, 0.8, 0.02)
+    eta_range = np.arange(0.15, 0.20, 0.01)
+    max_depth_range = np.arange(2, 3, 1)
+    num_round_range = np.arange(28, 38, 1)
+    subsample_range = np.arange(0.70, 0.75, 0.01)
 
     param_grid = dict(eta = eta_range, max_depth = max_depth_range, num_round = num_round_range, subsample = subsample_range)
     clf, bp, bs = cross_val.fit_clf(clf, pp.X_train, pp.Y_train, param_grid, 'log_loss')
