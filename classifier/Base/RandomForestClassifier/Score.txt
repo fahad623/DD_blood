@@ -1,1 +1,12 @@
-gs.best_params_ = {}, gs.best_score_ = 0.723958333333
+
+
+gs.best_params_ = {}, gs.best_score_ = 0.717013888889
+Total score = 0.9375
+
+gs.best_params_ = {'n_estimators': 130}, gs.best_score_ = -0.941727688872
+Optimization total score = 0.20841501334
+Accuracy total score = 0.9375
+
+gs.best_params_ = {'n_estimators': 140}, gs.best_score_ = -0.885064303418
+Optimization total score = 0.208393819804
+Accuracy total score = 0.9375

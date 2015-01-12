@@ -1,1 +1,22 @@
+
+
 gs.best_params_ = {}, gs.best_score_ = 0.784722222222
+Total score = 0.814236111111
+
+gs.best_params_ = {'C': 1.0, 'gamma': 1.0}, gs.best_score_ = -6.00304037891
+Total score = 0.814236111111
+
+gs.best_params_ = {'C': 1.0, 'gamma': 1.0}, gs.best_score_ = -5.99932956934
+Total score = 0.814236111111
+
+gs.best_params_ = {}, gs.best_score_ = -0.494389659782
+Optimization total score = 0.456159952788
+Accuracy total score = 0.814236111111
+
+gs.best_params_ = {}, gs.best_score_ = -0.494163126758
+Optimization total score = 0.46381890468
+Accuracy total score = 0.807291666667
+
+gs.best_params_ = {'C': 1.0, 'gamma': 1.0}, gs.best_score_ = -0.495665255229
+Optimization total score = 0.465127031139
+Accuracy total score = 0.807291666667

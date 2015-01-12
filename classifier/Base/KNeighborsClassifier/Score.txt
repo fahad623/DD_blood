@@ -1,1 +1,62 @@
+
+
 gs.best_params_ = {}, gs.best_score_ = 0.798611111111
+Total score = 0.803819444444
+
+gs.best_params_ = {}, gs.best_score_ = 0.798611111111
+Total score = 0.803819444444
+
+gs.best_params_ = {'n_neighbors': 35}, gs.best_score_ = -0.485003235066
+Total score = 0.803819444444
+
+gs.best_params_ = {'n_neighbors': 37}, gs.best_score_ = -0.486297804259
+Total score = 0.809027777778
+
+gs.best_params_ = {'n_neighbors': 37}, gs.best_score_ = -0.486297804259
+Total score = 0.809027777778
+
+gs.best_params_ = {}, gs.best_score_ = -0.486297804259
+Total score = 0.456123762594
+
+gs.best_params_ = {'n_neighbors': 36}, gs.best_score_ = -0.484979227234
+Total score = 0.455833886692
+
+gs.best_params_ = {}, gs.best_score_ = -0.484979227234
+Optimization total score = 0.455833886692
+Accuracy total score = 0.798611111111
+
+gs.best_params_ = {}, gs.best_score_ = -0.484979227234
+Optimization total score = 0.455833886692
+Accuracy total score = 0.798611111111
+
+gs.best_params_ = {}, gs.best_score_ = -0.484979227234
+Optimization total score = 0.455833886692
+Accuracy total score = 0.798611111111
+
+gs.best_params_ = {'n_neighbors': 38}, gs.best_score_ = -0.491394590369
+Optimization total score = 0.464051048772
+Accuracy total score = 0.796875
+
+gs.best_params_ = {'n_neighbors': 35}, gs.best_score_ = -0.528207193191
+Optimization total score = 0.495880206335
+Accuracy total score = 0.765625
+
+gs.best_params_ = {'n_neighbors': 34}, gs.best_score_ = -0.48244133339
+Optimization total score = 0.454770008282
+Accuracy total score = 0.802083333333
+
+gs.best_params_ = {'n_neighbors': 35}, gs.best_score_ = -0.309586039231
+Optimization total score = 0.453545176532
+Accuracy total score = 0.803819444444
+
+gs.best_params_ = {'n_neighbors': 35}, gs.best_score_ = -0.483830364313
+Optimization total score = 0.453545176532
+Accuracy total score = 0.803819444444
+
+gs.best_params_ = {'n_neighbors': 34}, gs.best_score_ = -0.479821113084
+Optimization total score = 0.453671264913
+Accuracy total score = 0.802083333333
+
+gs.best_params_ = {'n_neighbors': 31}, gs.best_score_ = -0.469955504248
+Optimization total score = 0.449149161545
+Accuracy total score = 0.805555555556

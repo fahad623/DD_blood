@@ -23,8 +23,7 @@ class XGBoostClassifier(object):
         pass        
 
     def fit(self, X_train, Y_train):
-        xg_train = xgb.DMatrix(X_train, label=Y_train)   
-        watchlist = [ (xg_train,'train'), (xg_test, 'test') ]     
+        xg_train = xgb.DMatrix(X_train, label=Y_train)    
         self.bst = xgb.train( XGBoostClassifier.param, xg_train, XGBoostClassifier.num_round)   
 
     def predict(self, X_test):

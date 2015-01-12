@@ -1,1 +1,9 @@
-gs.best_params_ = {}, gs.best_score_ = -0.470558598149
+
+
+gs.best_params_ = {}, gs.best_score_ = -0.337453479258
+Total score = 0.0894334718494
+Base classifiers = ['AdaBoostClassifier', 'GradientBoostingClassifier', 'KNeighborsClassifier', 'LinearSVC']
+
+gs.best_params_ = {'n_estimators': 200, 'learning_rate': 0.046415888336127774, 'max_depth': 4}, gs.best_score_ = -0.347347299637
+Total score = 0.116770685095
+Base classifiers = ['AdaBoostClassifier', 'GradientBoostingClassifier', 'KNeighborsClassifier', 'LinearSVC']

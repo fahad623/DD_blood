@@ -1,7 +1,27 @@
-
-
 gs.best_params_ = {'n_estimators': 500, 'learning_rate': 0.01, 'max_depth': 2}, gs.best_score_ = 0.791666666667
 Total score = 0.822916666667
 
 gs.best_params_ = {'n_estimators': 350, 'learning_rate': 0.01, 'max_depth': 2}, gs.best_score_ = -0.499075554716
 Total score = 0.809027777778
+
+gs.best_params_ = {}, gs.best_score_ = 0.791666666667
+Total score = 0.822916666667
+
+gs.best_params_ = {'n_estimators': 350, 'learning_rate': 0.01, 'max_depth': 2}, gs.best_score_ = -0.499075554716
+Total score = 0.809027777778
+
+gs.best_params_ = {}, gs.best_score_ = -0.497645300695
+Optimization total score = 0.442148782072
+Accuracy total score = 0.821180555556
+
+gs.best_params_ = {'n_estimators': 385, 'learning_rate': 0.0046415888336127772, 'max_depth': 3}, gs.best_score_ = -0.497620025195
+Optimization total score = 0.44163908765
+Accuracy total score = 0.821180555556
+
+gs.best_params_ = {'n_estimators': 385, 'learning_rate': 0.01, 'max_depth': 2}, gs.best_score_ = -0.494876768322
+Optimization total score = 0.447029796866
+Accuracy total score = 0.821180555556
+
+gs.best_params_ = {'n_estimators': 385, 'learning_rate': 0.01, 'max_depth': 2}, gs.best_score_ = -0.494947491636
+Optimization total score = 0.447029796866
+Accuracy total score = 0.821180555556

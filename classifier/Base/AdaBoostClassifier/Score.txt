@@ -1,1 +1,18 @@
-gs.best_params_ = {'n_estimators': 150, 'learning_rate': 0.10000000000000001}, gs.best_score_ = 0.772569444444
+
+
+gs.best_params_ = {}, gs.best_score_ = nan
+Total score = 0.822916666667
+
+gs.best_params_ = {}, gs.best_score_ = 0.786458333333
+Total score = 0.822916666667
+
+gs.best_params_ = {'n_estimators': 50, 'learning_rate': 0.001}, gs.best_score_ = 0.760416666667
+Total score = 0.760416666667
+
+gs.best_params_ = {}, gs.best_score_ = -0.559578564415
+Optimization total score = 0.549671204484
+Accuracy total score = 0.760416666667
+
+gs.best_params_ = {'n_estimators': 50, 'learning_rate': 0.021544346900318832}, gs.best_score_ = -0.556184792869
+Optimization total score = 0.548416899967
+Accuracy total score = 0.760416666667

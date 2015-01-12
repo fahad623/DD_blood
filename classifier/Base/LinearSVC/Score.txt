@@ -1,19 +1,52 @@
 
 
+gs.best_params_ = {}, gs.best_score_ = 0.770833333333
+Total score = 0.774305555556
+
+gs.best_params_ = {'C': 1.0000000000000001e-05}, gs.best_score_ = -7.12571819272
+Total score = 0.758680555556
+
+gs.best_params_ = {'C': 1.0000000000000001e-05}, gs.best_score_ = -7.07962381701
+Total score = 0.758680555556
+
+gs.best_params_ = {'C': 1.0000000000000001e-05, 'tol': 9.9999999999999995e-07}, gs.best_score_ = -7.07962381047
+Total score = 0.758680555556
+
+gs.best_params_ = {}, gs.best_score_ = 0.770833333333
+Total score = 0.774305555556
+
+gs.best_params_ = {}, gs.best_score_ = 0.770833333333
+Total score = 0.774305555556
+
+gs.best_params_ = {}, gs.best_score_ = 0.770833333333
+Total score = 0.774305555556
+
+gs.best_params_ = {'C': 1.0, 'tol': 9.9999999999999995e-07}, gs.best_score_ = -0.55593043802
+Total score = 0.772569444444
+
+gs.best_params_ = {'C': 1.0, 'tol': 1.0000000000000001e-05}, gs.best_score_ = -0.555962830847
+Total score = 0.772569444444
+
+gs.best_params_ = {'C': 0.001, 'tol': 9.9999999999999995e-08}, gs.best_score_ = 0.770833333333
+Total score = 0.774305555556
+
 gs.best_params_ = {'C': 0.001}, gs.best_score_ = 0.770833333333
 Total score = 0.774305555556
 
-gs.best_params_ = {'C': 1.0000000000000001e-05}, gs.best_score_ = -7.07962381635
-Total score = 0.758680555556
+gs.best_params_ = {}, gs.best_score_ = 0.770833333333
+Accuracy total score = 0.774305555556
 
-gs.best_params_ = {'C': 1.0000000000000001e-05}, gs.best_score_ = -7.07962381653
-Total score = 0.758680555556
+gs.best_params_ = {'C': 0.001}, gs.best_score_ = 0.770833333333
+Accuracy total score = 0.774305555556
 
-gs.best_params_ = {'C': 1.0000000000000001e-05}, gs.best_score_ = -7.07962381671
-Total score = 0.758680555556
+gs.best_params_ = {'C': 0.001, 'tol': 9.9999999999999995e-08}, gs.best_score_ = 0.770833333333
+Accuracy total score = 0.774305555556
 
-gs.best_params_ = {'C': 1.0000000000000001e-05}, gs.best_score_ = -7.07962381652
-Total score = 0.758680555556
+gs.best_params_ = {'C': 0.0011000000000000001}, gs.best_score_ = 0.770833333333
+Accuracy total score = 0.770833333333
 
-gs.best_params_ = {'C': 1.0000000000000001e-05}, gs.best_score_ = -7.07962381645
-Total score = 0.758680555556
+gs.best_params_ = {'C': 0.001}, gs.best_score_ = 0.770833333333
+Accuracy total score = 0.774305555556
+
+gs.best_params_ = {'C': 0.01}, gs.best_score_ = 0.770833333333
+Accuracy total score = 0.770833333333

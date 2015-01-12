@@ -60,4 +60,4 @@ if __name__ == '__main__':
 
     pp = pre_process.PreProcessBase()
     clf_list = make_base_classifiers()
-    run_base_classifiers(clf_list, pp, n_folds = 300, output_test = True)
+    run_base_classifiers(clf_list, pp, n_folds = 576, output_test = True)

@@ -1,0 +1,65 @@
+
+
+gs.best_params_ = {'n_neighbors': 33}, gs.best_score_ = -0.473169470829
+Total score = 0.439199636122
+Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
+
+gs.best_params_ = {'n_neighbors': 30}, gs.best_score_ = -0.468894275979
+Total score = 0.42791952667
+Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC']
+
+gs.best_params_ = {'n_neighbors': 38}, gs.best_score_ = -0.47801183547
+Total score = 0.4482604321
+Base classifiers = ['KNeighborsClassifier', 'LogisticRegression', 'LinearSVC']
+
+gs.best_params_ = {'n_neighbors': 38}, gs.best_score_ = -0.47801183547
+Total score = 0.4482604321
+Base classifiers = ['KNeighborsClassifier', 'LogisticRegression', 'LinearSVC']
+
+gs.best_params_ = {'n_neighbors': 30}, gs.best_score_ = -0.470056380576
+Total score = 0.427218736745
+Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LogisticRegression']
+
+gs.best_params_ = {'n_neighbors': 30}, gs.best_score_ = -0.468894275979
+Total score = 0.42791952667
+Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC']
+
+gs.best_params_ = {'n_neighbors': 37}, gs.best_score_ = -0.466359390208
+Total score = 0.453898821582
+Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC']
+
+gs.best_params_ = {'n_neighbors': 44}, gs.best_score_ = -0.470518685872
+Total score = 0.453071418203
+Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC']
+
+gs.best_params_ = {'n_neighbors': 29}, gs.best_score_ = -0.473523699138
+Total score = 0.438945364981
+Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
+
+gs.best_params_ = {'n_neighbors': 30}, gs.best_score_ = -0.475152976285
+Total score = 0.438979661807
+Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC']
+
+gs.best_params_ = {'n_neighbors': 35}, gs.best_score_ = -0.481391199792
+Total score = 0.454954892914
+Base classifiers = ['KNeighborsClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
+
+gs.best_params_ = {'n_neighbors': 44}, gs.best_score_ = -0.307459691061
+Total score = 0.461025956195
+Base classifiers = ['AdaBoostClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
+
+gs.best_params_ = {'n_neighbors': 44}, gs.best_score_ = -0.440821248605
+Total score = 0.461025956195
+Base classifiers = ['AdaBoostClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
+
+gs.best_params_ = {'n_neighbors': 44}, gs.best_score_ = -0.440418636736
+Total score = 0.461290718772
+Base classifiers = ['KNeighborsClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
+
+gs.best_params_ = {'n_neighbors': 29}, gs.best_score_ = -0.434622737449
+Total score = 0.438945364981
+Base classifiers = ['GradientBoostingClassifier', 'KNeighborsClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
+
+gs.best_params_ = {'n_neighbors': 31}, gs.best_score_ = -0.427417498198
+Total score = 0.437258091937
+Base classifiers = ['KNeighborsClassifier', 'GradientBoostingClassifier', 'LinearSVC']
