@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ee03e7da-00d2-40b9-8db2-50d7c5a1d503</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_base_AdaBoostClassifier.py</StartupFile>
+    <StartupFile>_base_XGBoostClassifier.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

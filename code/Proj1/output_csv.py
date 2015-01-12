@@ -28,13 +28,14 @@ def write_csv(clf_name, clfFolder, df_output, file_name, del_folder = False):
 
     df_output.to_csv(clfFolder +"\\"+ file_name, index = False) 
 
-def write_gs_params_base(clf_name, bp, bs, acc_score, opt_score = None):
+def write_gs_params_base(clf_name, bp, bs, acc_score = None, opt_score = None):
     clfFolder = pre_process.clfFolderBase + clf_name
     score_file = open(clfFolder + "\\Score.txt", "a")
     score_file.write("\n\ngs.best_params_ = {0}, gs.best_score_ = {1}".format(bp, bs))
     if opt_score:
         score_file.write("\nOptimization total score = {0}".format(opt_score))
-    score_file.write("\nAccuracy total score = {0}".format(acc_score))
+    if acc_score:
+        score_file.write("\nAccuracy total score = {0}".format(acc_score))
     score_file.close()
 
 def write_gs_params_meta(clf_name, bp, bs, total_score):

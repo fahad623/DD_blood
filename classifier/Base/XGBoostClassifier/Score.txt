@@ -1,0 +1,18 @@
+
+
+gs.best_params_ = {'num_round': 20, 'subsample': 0.69999999999999996, 'eta': 0.10000000000000001, 'max_depth': 3}, gs.best_score_ = -0.502118690366
+Optimization total score = 0.450981321926
+
+gs.best_params_ = {'num_round': 20, 'subsample': 0.69999999999999996, 'eta': 0.10000000000000001, 'max_depth': 3}, gs.best_score_ = -0.502118690366
+Optimization total score = 0.450981321926
+
+gs.best_params_ = {'num_round': 20, 'subsample': 0.89999999999999991, 'eta': 0.20000000000000001, 'max_depth': 4}, gs.best_score_ = 0.782986111111
+Optimization total score = 0.393644642137
+
+gs.best_params_ = {'num_round': 15, 'subsample': 0.69999999999999996, 'eta': 0.20000000000000001, 'max_depth': 3}, gs.best_score_ = -0.499847680175
+Optimization total score = 0.433132912834
+Accuracy total score = 0.824652777778
+
+gs.best_params_ = {'num_round': 35, 'subsample': 0.69999999999999996, 'eta': 0.10000000000000001, 'max_depth': 3}, gs.best_score_ = -0.443723555557
+Optimization total score = 0.425362188013
+Accuracy total score = 0.826388888889
