@@ -10,8 +10,8 @@ clfFolderMeta = "../../classifier/Meta/"
 base_csv_name = "base_output.csv"
 test_csv_name = "test_output.csv"
 
-#base_clf_names = ['AdaBoostClassifier','GradientBoostingClassifier', 'KNeighborsClassifier', 'LinearSVC', 'RandomForestClassifier', 'SVC']
-base_clf_names = ['KNeighborsClassifier','GradientBoostingClassifier','LinearSVC']
+#base_clf_names = ['AdaBoostClassifier','GradientBoostingClassifier', 'KNeighborsClassifier', 'LinearSVC', 'XGBoostClassifier','RandomForestClassifier', 'SVC']
+base_clf_names = ['KNeighborsClassifier', 'GradientBoostingClassifier', 'LinearSVC', 'XGBoostClassifier', 'LogisticRegression','SVC']
 meta_clf_name = 'LogisticRegression'
 
 class PreProcessBase(object):   

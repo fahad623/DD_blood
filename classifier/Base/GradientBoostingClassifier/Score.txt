@@ -25,3 +25,7 @@ Accuracy total score = 0.821180555556
 gs.best_params_ = {'n_estimators': 385, 'learning_rate': 0.01, 'max_depth': 2}, gs.best_score_ = -0.494947491636
 Optimization total score = 0.447029796866
 Accuracy total score = 0.821180555556
+
+gs.best_params_ = {'n_estimators': 390, 'learning_rate': 0.01}, gs.best_score_ = -0.447955915054
+Optimization total score = 0.446704795761
+Accuracy total score = 0.821180555556

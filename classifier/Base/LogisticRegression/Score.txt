@@ -26,3 +26,7 @@ Accuracy total score = 0.760416666667
 gs.best_params_ = {'C': 0.40000000000000002, 'tol': 1e-08}, gs.best_score_ = -0.487258638502
 Optimization total score = 0.483549519577
 Accuracy total score = 0.760416666667
+
+gs.best_params_ = {'C': 0.90000000000000002, 'tol': 9.9999999999999994e-12}, gs.best_score_ = -0.443916506765
+Optimization total score = 0.483252006822
+Accuracy total score = 0.760416666667

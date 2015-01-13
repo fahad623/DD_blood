@@ -13,7 +13,9 @@ def fit_predict(clf, X_train, Y_train, X_test, predict_method):
     clf.fit(X_train, Y_train)
         
     if predict_method == 'proba':
-        predict = clf.predict_proba(X_test)[:,1]
+        predict = clf.predict_proba(X_test)
+        if predict.ndim == 2:
+            predict = predict[:, 1]
     elif predict_method == 'decision':
         predict = clf.decision_function(X_test)
     else:

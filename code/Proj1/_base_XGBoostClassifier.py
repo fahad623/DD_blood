@@ -91,17 +91,17 @@ class XGBoostClassifier(BaseEstimator, ClassifierMixin):
 
 
 def make_best_classifier():
-    return XGBoostClassifier(num_round = 32, subsample = 0.75, eta = 0.16, max_depth = 2), predict_method
+    return XGBoostClassifier(num_round = 32, subsample = 0.73, eta = 0.17, max_depth = 2), predict_method
 
 def train_base_clf(pp):    
     clf = make_best_classifier()[0]
-    eta_range = np.arange(0.15, 0.20, 0.01)
-    max_depth_range = np.arange(2, 3, 1)
+    eta_range = np.arange(0.13, 0.20, 0.01)
+    max_depth_range = np.arange(2, 3, 1) 
     num_round_range = np.arange(28, 38, 1)
-    subsample_range = np.arange(0.70, 0.75, 0.01)
+    subsample_range = np.arange(0.70, 0.80, 0.01)
 
     param_grid = dict(eta = eta_range, max_depth = max_depth_range, num_round = num_round_range, subsample = subsample_range)
-    clf, bp, bs = cross_val.fit_clf(clf, pp.X_train, pp.Y_train, param_grid, 'log_loss')
+    clf, bp, bs = cross_val.fit_clf(clf, pp.X_train, pp.Y_train, {}, 'log_loss')
     output_csv.write_test_csv(clf.__class__.__name__, pp.df_output_test, clf.predict_proba(pp.X_test))
     output_csv.write_gs_params_base(clf.__class__.__name__, bp, bs, 
                                     clf.score(pp_base.X_train, pp_base.Y_train), log_loss(pp.Y_train, clf.predict_proba(pp.X_train)))

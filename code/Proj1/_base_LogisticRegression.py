@@ -9,7 +9,7 @@ predict_method = 'proba'
 
 def make_best_classifier():
     #return LogisticRegression(C = 10, tol = 1e-4), predict_method
-    return LogisticRegression(C = 0.4, tol = 1e-8), predict_method
+    return LogisticRegression(C = 0.9, tol = 1e-11), predict_method
 
 def train_base_clf(pp):
     clf = make_best_classifier()[0]

@@ -20,3 +20,7 @@ Accuracy total score = 0.807291666667
 gs.best_params_ = {'C': 1.0, 'gamma': 1.0}, gs.best_score_ = -0.495665255229
 Optimization total score = 0.465127031139
 Accuracy total score = 0.807291666667
+
+gs.best_params_ = {'C': 1.0, 'gamma': 1.0}, gs.best_score_ = -0.453231900563
+Optimization total score = 0.463055354624
+Accuracy total score = 0.807291666667
