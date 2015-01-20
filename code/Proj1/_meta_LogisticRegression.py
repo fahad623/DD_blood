@@ -15,7 +15,7 @@ def train_meta_clf(pp_base, pp_meta):
     #C_range = 10.0 ** np.arange(-3, 3)
     #tol_range = 10.0 ** np.arange(-7, -3)
 
-    C_range = np.arange(1, 25, 1)
+    C_range = np.arange(2, 10, 1)
     tol_range = 10.0 ** np.arange(-15, -5)
     param_grid = dict(C = C_range)
     clf, bp, bs = cross_val.fit_clf(clf, pp_meta.X_train, pp_base.Y_train, param_grid, 'log_loss')

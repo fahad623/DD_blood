@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ee03e7da-00d2-40b9-8db2-50d7c5a1d503</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_base_XGBoostClassifier.py</StartupFile>
+    <StartupFile>averaging.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="averaging.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="base_clf.py" />
     <Compile Include="cross_val.py" />
     <Compile Include="meta_clf.py" />

@@ -19,7 +19,7 @@ def make_decision_scorer():
     return make_scorer(log_loss, greater_is_better = False, needs_threshold = True)
 
 def cv_optimize(clf, X_train, Y_train, param_grid, scorer):
-    gs = GridSearchCV(clf, param_grid = param_grid, scoring = scorer, cv = KFold(X_train.shape[0], n_folds = 288, shuffle = True, random_state = 78), n_jobs = 7, verbose = 3)
+    gs = GridSearchCV(clf, param_grid = param_grid, scoring = scorer, cv = KFold(X_train.shape[0], n_folds = 192, shuffle = True, random_state = 78), n_jobs = 7, verbose = 3)
     gs.fit(X_train, Y_train)
     print "gs.best_params_ = {0}, gs.best_score_ = {1}".format(gs.best_params_, gs.best_score_)
     print "gs.grid_scores_ = {0}".format(gs.grid_scores_)

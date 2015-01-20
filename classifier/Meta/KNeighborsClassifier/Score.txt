@@ -75,3 +75,11 @@ Base classifiers = ['KNeighborsClassifier', 'GradientBoostingClassifier', 'Linea
 gs.best_params_ = {'n_neighbors': 30}, gs.best_score_ = -0.4302177898
 Total score = 0.438354561054
 Base classifiers = ['KNeighborsClassifier', 'GradientBoostingClassifier', 'LinearSVC', 'XGBoostClassifier', 'SVC']
+
+gs.best_params_ = {'n_neighbors': 42}, gs.best_score_ = -0.435364213077
+Total score = 0.454313810702
+Base classifiers = ['KNeighborsClassifier', 'GradientBoostingClassifier', 'LinearSVC', 'XGBoostClassifier', 'LogisticRegression', 'SVC']
+
+gs.best_params_ = {'n_neighbors': 30}, gs.best_score_ = -0.4302177898
+Total score = 0.438354561054
+Base classifiers = ['KNeighborsClassifier', 'GradientBoostingClassifier', 'LinearSVC', 'XGBoostClassifier', 'SVC']
