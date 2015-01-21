@@ -331,3 +331,7 @@ Base classifiers = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoosti
 gs.best_params_ = {'C': 5}, gs.best_score_ = -0.460081510607
 Total score = 0.468579021661
 Base classifiers = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'LogisticRegression', 'LinearSVC']
+
+gs.best_params_ = {'C': 2}, gs.best_score_ = -0.462013272623
+Total score = 0.470840330837
+Base classifiers = ['BaggingClassifier', 'KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']

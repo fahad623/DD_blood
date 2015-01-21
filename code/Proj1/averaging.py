@@ -1,7 +1,7 @@
 import pandas as pd
 import pre_process
 
-clf_names_avg = ['KNeighborsClassifier', 'LogisticRegression']
+clf_names_avg = ['KNeighborsClassifier', 'XGBoostClassifier', 'LogisticRegression']
 
 def avg_to_output():
     

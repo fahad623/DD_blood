@@ -11,7 +11,7 @@ base_csv_name = "base_output.csv"
 test_csv_name = "test_output.csv"
 
 #base_clf_names = ['AdaBoostClassifier','GradientBoostingClassifier', 'KNeighborsClassifier', 'LinearSVC', 'XGBoostClassifier','RandomForestClassifier', 'SVC']
-base_clf_names = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'LogisticRegression', 'LinearSVC']
+base_clf_names = ['BaggingClassifier', 'KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
 meta_clf_name = 'LogisticRegression'
 
 class PreProcessBase(object):   

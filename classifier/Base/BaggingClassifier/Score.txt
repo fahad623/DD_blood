@@ -13,3 +13,19 @@ Accuracy total score = 0.795138888889
 gs.best_params_ = {'n_estimators': 140}, gs.best_score_ = -0.486908284347
 Optimization total score = 0.459962958209
 Accuracy total score = 0.805555555556
+
+gs.best_params_ = {'n_estimators': 110}, gs.best_score_ = -0.465911155568
+Optimization total score = 0.451849521574
+Accuracy total score = 0.805555555556
+
+gs.best_params_ = {'n_estimators': 20}, gs.best_score_ = -0.466175766696
+Optimization total score = 0.454504270222
+Accuracy total score = 0.805555555556
+
+gs.best_params_ = {'n_estimators': 50}, gs.best_score_ = -0.465639217338
+Optimization total score = 0.452531787805
+Accuracy total score = 0.810763888889
+
+gs.best_params_ = {}, gs.best_score_ = -0.467243366488
+Optimization total score = 0.451495178176
+Accuracy total score = 0.800347222222
