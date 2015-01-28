@@ -10,3 +10,15 @@ Accuracy total score = 0.9375
 gs.best_params_ = {'n_estimators': 140}, gs.best_score_ = -0.885064303418
 Optimization total score = 0.208393819804
 Accuracy total score = 0.9375
+
+gs.best_params_ = {'n_estimators': 140}, gs.best_score_ = -0.719846582056
+Optimization total score = 0.207919572766
+Accuracy total score = 0.9375
+
+gs.best_params_ = {'n_estimators': 60, 'max_depth': 3}, gs.best_score_ = -0.471371587079
+Optimization total score = 0.462382478673
+Accuracy total score = 0.774305555556
+
+gs.best_params_ = {'n_estimators': 65, 'max_depth': 3}, gs.best_score_ = -0.472939314979
+Optimization total score = 0.464305490413
+Accuracy total score = 0.770833333333

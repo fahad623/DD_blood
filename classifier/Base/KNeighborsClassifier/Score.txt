@@ -64,3 +64,7 @@ Accuracy total score = 0.805555555556
 gs.best_params_ = {'n_neighbors': 31}, gs.best_score_ = -0.438631740577
 Optimization total score = 0.449149161545
 Accuracy total score = 0.805555555556
+
+gs.best_params_ = {'n_neighbors': 33}, gs.best_score_ = -0.479464807249
+Optimization total score = 0.467506352703
+Accuracy total score = 0.793402777778

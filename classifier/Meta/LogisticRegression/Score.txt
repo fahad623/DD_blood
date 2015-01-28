@@ -335,3 +335,31 @@ Base classifiers = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoosti
 gs.best_params_ = {'C': 2}, gs.best_score_ = -0.462013272623
 Total score = 0.470840330837
 Base classifiers = ['BaggingClassifier', 'KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
+
+gs.best_params_ = {'C': 3}, gs.best_score_ = -0.461858146011
+Total score = 0.469322438111
+Base classifiers = ['BaggingClassifier', 'KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'LogisticRegression', 'LinearSVC', 'SVC', 'RandomForestClassifier']
+
+gs.best_params_ = {'C': 4}, gs.best_score_ = -0.461256180018
+Total score = 0.468425321468
+Base classifiers = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'LogisticRegression', 'LinearSVC', 'SVC', 'RandomForestClassifier']
+
+gs.best_params_ = {'C': 4}, gs.best_score_ = -0.461448770868
+Total score = 0.469063639799
+Base classifiers = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'LogisticRegression', 'LinearSVC', 'SVC']
+
+gs.best_params_ = {'C': 5}, gs.best_score_ = -0.463266744722
+Total score = 0.475481236869
+Base classifiers = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'RandomForestClassifier']
+
+gs.best_params_ = {'C': 5}, gs.best_score_ = -0.463266744722
+Total score = 0.475481236869
+Base classifiers = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'RandomForestClassifier']
+
+gs.best_params_ = {'C': 6}, gs.best_score_ = -0.459844997129
+Total score = 0.467409713058
+Base classifiers = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'RandomForestClassifier', 'LogisticRegression', 'LinearSVC']
+
+gs.best_params_ = {'C': 6}, gs.best_score_ = -0.459392687747
+Total score = 0.468086464205
+Base classifiers = ['KNeighborsClassifier', 'XGBoostClassifier', 'GradientBoostingClassifier', 'RandomForestClassifier', 'LogisticRegression']
